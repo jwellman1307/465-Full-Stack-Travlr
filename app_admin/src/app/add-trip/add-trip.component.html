@@ -3,7 +3,7 @@
     <form *ngIf="addForm" [formGroup]="addForm" 
 (ngSubmit)="onSubmit()"> 
  
-    <div class="form-group"> 
+      <div class="form-group"> 
         <label>Code:</label> 
         <input type="text" formControlName="code"  
           placeholder="Code" class="form-control" 
@@ -11,8 +11,8 @@
 }"> 
         <div *ngIf="submitted && f['code'].errors"> 
           <div *ngIf="f['code'].errors?.['required']"> 
-            Trip Code is required
-          </div> 
+             Trip Code is required
+              </div> 
         </div> 
       </div> 
    
@@ -103,9 +103,11 @@ f['description'].errors }">
         <div *ngIf="submitted && f['description'].errors"> 
           <div *ngIf="f['description'].errors?.['required']">
             Description is required  
-            </div> 
+          </div> 
         </div> 
-</div> 
+      </div> 
     <button type="submit" class="btn btn-info">Save</button> 
-    </form> 
-</div>   
+  </form> 
+</div>  
+ 
+ 
