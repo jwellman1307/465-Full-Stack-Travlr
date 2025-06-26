@@ -1,1 +1,9 @@
 # 465-Full-Stack-Travlr
+
+This project was to create a full stack development of a travel booking website using a MEAN architecture. In this project, I got hands on with using Express HTML, javascript, and single-page-applications(SPA). Express HTML had a more static look that required full page reloads while SPAs were are reactive and able to process requests without a full reload. JavaScript was used for the client-side scripting and form validation. The backend used a noSQL Mongo database becuase it can be easily integrated with node.js using Mongoose and MongoDB provides both speed and scalability. 
+
+JSON and JavaScript are two different things. JacaScript is a programming language while JSON is a data format. JSON files are used to store and exchange data between applications. JSON ties the frontend and backend together containing a readable format that can read by both. Instance where JSON was used in the travlr project was the trips.JSON file that included all the trips. 
+
+Postman and MongodB database were used to test API endpoints along with security. I got to use the GET, POST, and PUT feature in postman to test the backend routes. Endpoints are specific URLs that the frontend calls to access data on the backend. Examples of an endpoint in this project is the /api/trips, which pulls all the data stored on the trips file. All endpoints are connected to a controller that interacts with the database. For testing the security, I used JWT authentication with a middleware. Using Postman to POST a new user login generating a token valid for one hour. Using this token, I tested funcitonality on login requirements for adding and editing trips. 
+
+This course has been an excellent source of material for learning how to create a basic website from scratch. It gave me an opportunity to learn more about a MEAN architecture and how the individual parts interact with one another. 
