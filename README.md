@@ -1,9 +1,49 @@
-# 465-Full-Stack-Travlr
+# 465 Full Stack Web Application
 
-This project was to create a full stack development of a travel booking website using a MEAN architecture. In this project, I got hands on with using Express HTML, javascript, and single-page-applications(SPA). Express HTML had a more static look that required full page reloads while SPAs were are reactive and able to process requests without a full reload. JavaScript was used for the client-side scripting and form validation. The backend used a noSQL Mongo database becuase it can be easily integrated with node.js using Mongoose and MongoDB provides both speed and scalability. 
+## Overview
+Travlr is a full-stack travel booking application built using the MEAN architecture (MongoDB, Express.js, Angular, Node.js). It features a structured separation of concerns between the client, server, and database, and demonstrates CRUD operations, RESTful API development, authentication, routing, and SPA (Single Page Application) design.
 
-JSON and JavaScript are two different things. JacaScript is a programming language while JSON is a data format. JSON files are used to store and exchange data between applications. JSON ties the frontend and backend together containing a readable format that can read by both. Instance where JSON was used in the travlr project was the trips.JSON file that included all the trips. 
+This project was developed as part of CS-465: Full-Stack Development, with emphasis on building secure, scalable, and maintainable applications using modern web technologies.
 
-Postman and MongodB database were used to test API endpoints along with security. I got to use the GET, POST, and PUT feature in postman to test the backend routes. Endpoints are specific URLs that the frontend calls to access data on the backend. Examples of an endpoint in this project is the /api/trips, which pulls all the data stored on the trips file. All endpoints are connected to a controller that interacts with the database. For testing the security, I used JWT authentication with a middleware. Using Postman to POST a new user login generating a token valid for one hour. Using this token, I tested funcitonality on login requirements for adding and editing trips. 
+The system follows a three-tier architecture: Client - Server - Database. Each layer contains its own sub-components for UI, routing, controllers, and data access. 
 
-This course has been an excellent source of material for learning how to create a basic website from scratch. It gave me an opportunity to learn more about a MEAN architecture and how the individual parts interact with one another. 
+## Features
+- CRUD operations for managing travel trips
+- Admin dashboard built with Angular
+- Customer-facing site built with Express
+- RESTful API with secure JWT authentication
+- MongoDB integration using Mongoose
+- SPA navigation with no full page reloads
+
+## Tech Stack
+Frontend
+- Angular
+- TypeScript
+- HTML / CSS
+- Angular Router (SPA navigation)
+
+Backend
+- Node.js
+- Express.js
+- Mongoose (MongoDB ODM)
+
+Database
+- MongoDB
+
+## Tools & Testing
+- Postman (API testing)
+- MongoDB Compass
+- JWT Authentication
+- Git / GitHub
+
+## What I learned
+- Full MEAN stack integration
+- SPA routing and component-based UI
+- REST API development
+- Secure API requests using JWT
+- Debugging and error handling in both Angular and Node
+- Managing version mismatches (Angular naming conventions)
+- Working with Postman and MongoDB Compass
+
+
+
